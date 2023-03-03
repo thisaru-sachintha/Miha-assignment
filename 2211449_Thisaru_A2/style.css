@@ -1,0 +1,122 @@
+/* common */
+
+body {
+    background-color: white;
+    color: lightslategrey;
+    margin:0;
+}
+
+.head {
+    height: 65px;
+    width: 100vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: lightgray;
+    box-sizing: border-box;
+    position: relative;
+    padding: 15px 10px 10px 10px;
+}
+
+.background {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+input {
+    height: 20px;
+    padding-left: 10px;
+    margin: 5px 0 10px 0;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.dialogue {
+    background-color: lightgray;
+    border-radius: 20px;
+    box-sizing: border-box;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+button {
+    box-sizing: border-box;
+    border-width: 1px;
+    border-color: lightgrey;
+    padding: 5px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#_logout {
+    margin: 15px;
+}
+
+/* login  */
+
+#signin {
+    height: 30px;
+    width: 70px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-style: inset;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+._login {
+    height: 250px;
+    width: 200px;
+}
+
+#checkbox {
+    position: relative;
+    top: 5px;
+}
+
+/* home  */
+
+._user {
+    height: 240px;
+    width: 200px;
+}
+
+/* create */
+
+._create {
+    height:260px;
+    width: 200px;
+}
+
+#message {
+    font-size: 10px;
+    display: none;
+}
